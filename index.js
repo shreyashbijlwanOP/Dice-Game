@@ -11,8 +11,8 @@ doSomething.onclick = function fun()
   var randNumber2 =Math.floor(Math.random()*6) +1;
 
   var randomDiceImage = "dice" + randNumber + ".png";   // random dice image1-6.png
-  var randomImageSource =  "images/" + randomDiceImage ; // image/randomDiceImage
-  var randomImageSource2 = "images/dice" + randNumber2 + ".png";
+  var randomImageSource =  "./images/" + randomDiceImage ; // image/randomDiceImage
+  var randomImageSource2 = "./images/dice" + randNumber2 + ".png";
   // Commmand to change the attribute of html's elemet;
   var image = document.querySelectorAll("img")[0];
   image.setAttribute("src",randomImageSource);
